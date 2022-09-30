@@ -1,7 +1,5 @@
 let tabuada = 2;
-let nome = "Miyazaki";
 function escreva(){
-    document.write("Tabuada do" + tabuada + "<br>")
     document.write( tabuada + " x 1 = " + (tabuada*1)  + "<br>");
     document.write( tabuada + " x 2 = " + (tabuada*2) + "<br>" );
     document.write( tabuada + " x 3 = " + (tabuada*3)  + "<br>");
@@ -12,5 +10,4 @@ function escreva(){
     document.write( tabuada + " x 8 = " + (tabuada*8) + "<br>" );
     document.write( tabuada + " x 9 = " + (tabuada*9)  + "<br>");
     document.write( tabuada + " x 10 = " + (tabuada*10) + "<br>" );
-    document.write('Feito por ' = nome)
 }
