@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
-## Identificação 
+## Identificação
 Joao Lucas Miyazaki Maeda - Nr. 18
 
 ## Conteúdo
-HTML, CSS e JavaScript
+HTML, CSS e javaScript
