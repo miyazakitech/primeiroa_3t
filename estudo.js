@@ -1,4 +1,4 @@
-let tabuada = 1;
+alet tabuada = 1;
 let nome = "Miyazaki";
 
 function escreva() {
