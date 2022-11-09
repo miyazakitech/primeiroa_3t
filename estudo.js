@@ -1,4 +1,4 @@
-alet tabuada = 1;
+let tabuada = 1;
 let nome = "Miyazaki";
 
 function escreva() {
@@ -60,13 +60,17 @@ if (!Number(t)) {
     return
 }
 let r = c;
+let texto = "";
 for (let m = 1; m <= t; m++) {
     r = c * (1 + (j / 100));
     c = r;
-    document.write("Mes " + m + " - valor: " + moeda(r) + "<br>");
+    texto +=  m + " : " + moeda(r) + "<br>"
+   // document.write("Mes " + m + " - valor: " + moeda(r) + "<br>");
 
 }
-document.write("resultado: " + moeda(r));
+document.getElementById("listameses").innerHTML = texto;
+document.getElementById("total").innerHTML = moeda(r);
+//document.write("resultado: " + moeda(r));
 }
 
 let op = "";
